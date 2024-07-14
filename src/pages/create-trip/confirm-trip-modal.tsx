@@ -17,7 +17,7 @@ export function ConfirmTripModal({
                     <div className='flex items-center justify-between'>
                         <h2 className='text-lg font-semibold'>Confirmar criação da viagem</h2>
                         <button onClick={closeConfirmTripModal}>
-                            <X className='size-5 text-zinc-400 transition hover:cursor-pointer hover:text-zinc-50' />
+                            <X className='size-5 text-zinc-400 transition hover:text-zinc-50' />
                         </button>
                     </div>
                     
@@ -27,7 +27,7 @@ export function ConfirmTripModal({
                 </div>
 
                 <form onSubmit={createTrip} className='space-y-3'>
-                    <div className='h-14 flex items-center gap-2 py-2.5 px-4 bg-zinc-950 border border-zinc-800 rounded-lg'>
+                    <div className='h-14 flex items-center gap-2 px-4 bg-zinc-950 border border-zinc-800 rounded-lg'>
                         <User className='text-zinc-400 size-5' />
                         <input 
                             type="text" 
@@ -37,7 +37,7 @@ export function ConfirmTripModal({
                         />
                     </div>
                 
-                    <div className='h-14 flex items-center gap-2 py-2 px-3 bg-zinc-950 border border-zinc-800 rounded-lg'>
+                    <div className='h-14 flex items-center gap-2 px-4 bg-zinc-950 border border-zinc-800 rounded-lg'>
                         <AtSign className='text-zinc-400 size-5' />
                         <input 
                             type="email" 
