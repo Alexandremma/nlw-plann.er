@@ -45,11 +45,11 @@ export function InviteGuestsModal(props: InviteGuestsModalProps) {
                             type="email" 
                             name='email'
                             placeholder='Digite o e-mail do convidado' 
-                            className='bg-transparent text-lg placeholder-zinc-400 outline-none flex-1'
+                            className='flex-1 bg-transparent text-lg placeholder-zinc-400 outline-none'
                         />
                     </div>
 
-                    <button type='submit' className='bg-lime-300 text-lime-950 rounded-lg px-4 py-1.5 font-medium flex items-center gap-2 hover:bg-lime-400'>
+                    <button type='submit' className='flex items-center gap-2 px-4 py-1.5 bg-lime-300 text-lime-950 rounded-lg font-medium hover:bg-lime-400'>
                         Convidar
                         <Plus className='size-5' />
                     </button>
